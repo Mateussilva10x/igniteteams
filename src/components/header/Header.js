@@ -1,5 +1,4 @@
 import { BackButton, BackIcon, Container, Logo } from "./HeaderStyles";
-
 import logoImg from "../../assets/logo.png";
 
 export function Header({ showBackButton = false }) {

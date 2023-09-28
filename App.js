@@ -6,7 +6,7 @@ import {
   Roboto_400Regular,
   Roboto_700Bold,
 } from "@expo-google-fonts/roboto";
-import { Loading } from "./src/components/loading";
+import { Loading } from "./src/components/Loading";
 import { StatusBar } from "react-native";
 
 export default function App() {
