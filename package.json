@@ -15,14 +15,14 @@
     "expo-status-bar": "~1.6.0",
     "phosphor-react-native": "^1.1.2",
     "react": "18.2.0",
-    "react-native": "0.72.4",
-    "styled-components": "^6.0.8",
-    "react-native-svg": "13.9.0"
+    "react-native": "0.72.5",
+    "react-native-svg": "13.9.0",
+    "styled-components": "^6.0.8"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0",
-    "@types/styled-components": "^5.1.27",
-    "@types/styled-components-react-native": "^5.2.1"
+    "@babel/core": "^7.23.0",
+    "@types/styled-components": "^5.1.28",
+    "@types/styled-components-react-native": "^5.2.3"
   },
   "private": true
 }
