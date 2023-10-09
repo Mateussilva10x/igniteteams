@@ -1,7 +1,7 @@
 import { BackButton, BackIcon, Container, Logo } from "./HeaderStyles";
 import logoImg from "../../assets/logo.png";
 
-export function Header({ showBackButton = false }) {
+function Header({ showBackButton = false }) {
   return (
     <Container>
       {showBackButton && (
@@ -13,3 +13,5 @@ export function Header({ showBackButton = false }) {
     </Container>
   );
 }
+
+export default Header;

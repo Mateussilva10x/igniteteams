@@ -1,11 +1,11 @@
-import { Header } from "../../components/Header/Header";
-import { Highlight } from "../../components/Highlight/HighLight";
+import { Header } from "../../components/Header";
+import { Highlight } from "../../components/Highlight";
 import { Container } from "./styles";
 
 export default function Groups() {
   return (
     <Container>
-      <Header />
+      <Header showBackButton />
       <Highlight title="Turmas" subtitle="Jogue com sua turma" />
     </Container>
   );

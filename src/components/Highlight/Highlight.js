@@ -1,6 +1,6 @@
 import { Container, Subtitle, Title } from "./HighlightStyles";
 
-export function Highlight({ title, subtitle }) {
+function Highlight({ title, subtitle }) {
   return (
     <Container>
       <Title>{title}</Title>
@@ -8,3 +8,5 @@ export function Highlight({ title, subtitle }) {
     </Container>
   );
 }
+
+export default Highlight;
