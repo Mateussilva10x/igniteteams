@@ -1,7 +1,13 @@
 import { useState } from "react";
 import { Container } from "./styles";
 import { FlatList } from "react-native";
-import { GroupCard, Header, Highlight, ListEmpty } from "../../components";
+import {
+  GroupCard,
+  Header,
+  Highlight,
+  ListEmpty,
+  Button,
+} from "../../components";
 
 export default function Groups() {
   const [groups, setGroups] = useState([]);
@@ -18,6 +24,8 @@ export default function Groups() {
         contentContainerStyle={groups.length === 0 && { flex: 1 }}
         ListEmptyComponent={() => <ListEmpty message="Cadastre uma turma" />}
       />
+
+      <Button title="Criar Turma" />
     </Container>
   );
 }
