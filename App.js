@@ -1,5 +1,5 @@
 import { ThemeProvider } from "styled-components/native";
-import Groups from "./src/screens/Groups";
+import NewGroup from "./src/screens/NewGroup";
 import theme from "./src/theme";
 import {
   useFonts,
@@ -19,7 +19,7 @@ export default function App() {
         translucent
         backgroundColor="transparent"
       />
-      {fontsLoaded ? <Groups /> : <Loading />}
+      {fontsLoaded ? <NewGroup /> : <Loading />}
     </ThemeProvider>
   );
 }
